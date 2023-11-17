@@ -13,8 +13,8 @@ from ellar.common.serializer import (
     get_dataclass_pydantic_model,
     serialize_object,
 )
-from pydantic import BaseModel, Field
-from pydantic import dataclasses as pydantic_dataclasses
+from pydantic.v1 import BaseModel, Field
+from pydantic.v1 import dataclasses as pydantic_dataclasses
 
 
 class Person:

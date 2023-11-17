@@ -8,8 +8,8 @@ from ellar.common.logger import request_logger
 from ellar.common.serializer import SerializerFilter, serialize_object
 from ellar.common.utils.modelfield import create_model_field
 from ellar.reflect import reflect
-from pydantic import BaseModel
-from pydantic.fields import ModelField
+from pydantic.v1 import BaseModel
+from pydantic.v1.fields import ModelField
 from starlette.responses import Response
 
 from .type_converter import ResponseTypeDefinitionConverter

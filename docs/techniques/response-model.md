@@ -103,7 +103,7 @@ All response model follows `IResponseModel` contract.
 ```python
 import typing as t
 
-from pydantic.fields import ModelField
+from pydantic.v1.fields import ModelField
 from ellar.common import IExecutionContext, Response
 
 

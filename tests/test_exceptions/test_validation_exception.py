@@ -6,7 +6,7 @@ from ellar.common.exceptions.validation import (
 )
 from ellar.core import WebSocket
 from ellar.testing import Test
-from pydantic.error_wrappers import ErrorWrapper
+from pydantic.v1.error_wrappers import ErrorWrapper
 
 from .exception_runner import ExceptionRunner
 

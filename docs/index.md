@@ -60,7 +60,7 @@ from ellar.common import Body, Controller, ControllerBase, delete, get, post, pu
 from ellar.app import AppFactory
 from ellar.di import injectable, request_scope
 from ellar.openapi import OpenAPIDocumentModule, OpenAPIDocumentBuilder, SwaggerUI
-from pydantic import Field
+from pydantic.v1 import Field
 from pathlib import Path
 
 

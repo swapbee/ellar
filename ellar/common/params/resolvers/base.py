@@ -1,9 +1,9 @@
 import typing as t
 from abc import ABC, ABCMeta, abstractmethod
 
-from pydantic.error_wrappers import ErrorWrapper
-from pydantic.errors import MissingError
-from pydantic.fields import ModelField
+from pydantic.v1.error_wrappers import ErrorWrapper
+from pydantic.v1.errors import MissingError
+from pydantic.v1.fields import ModelField
 
 if t.TYPE_CHECKING:  # pragma: no cover
     from ..params import ParamFieldInfo

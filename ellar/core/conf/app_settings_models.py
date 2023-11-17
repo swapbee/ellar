@@ -12,8 +12,8 @@ from ellar.common.responses import JSONResponse, PlainTextResponse
 from ellar.common.serializer import Serializer, SerializerFilter
 from ellar.common.types import ASGIApp, TReceive, TScope, TSend
 from ellar.core.versioning import DefaultAPIVersioning
-from pydantic import validator
-from pydantic.json import ENCODERS_BY_TYPE as encoders_by_type
+from pydantic.v1 import validator
+from pydantic.v1.json import ENCODERS_BY_TYPE as encoders_by_type
 from starlette.exceptions import HTTPException as StarletteHTTPException
 from starlette.websockets import WebSocketClose
 

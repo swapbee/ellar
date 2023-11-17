@@ -6,7 +6,7 @@ try:
     import email_validator
 
     assert email_validator
-    from pydantic import EmailStr
+    from pydantic.v1 import EmailStr
 except ImportError:  # pragma: no cover
 
     class EmailStr(str):  # type: ignore

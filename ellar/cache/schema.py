@@ -1,7 +1,7 @@
 import typing as t
 
 from ellar.cache import BaseCacheBackend
-from pydantic import BaseModel, validator
+from pydantic.v1 import BaseModel, validator
 
 
 class TBaseCacheBackend:

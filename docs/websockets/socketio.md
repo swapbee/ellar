@@ -69,7 +69,7 @@ You can also define schema for the data receive, for example:
 # project_name/events/gateway.py
 from ellar.socket_io import WebSocketGateway, subscribe_message, GatewayBase
 from ellar.common import WsBody
-from pydantic import BaseModel
+from pydantic.v1 import BaseModel
 
 
 class MessageBody(BaseModel):

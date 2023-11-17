@@ -4,7 +4,7 @@ from ellar.common.constants import ROUTE_METHODS
 from ellar.common.interfaces import IResponseModel
 from ellar.common.responses.models import EmptyAPIResponseModel, create_response_model
 from ellar.common.serializer import BaseSerializer
-from pydantic import BaseModel, Field, PrivateAttr, root_validator, validator
+from pydantic.v1 import BaseModel, Field, PrivateAttr, root_validator, validator
 
 if t.TYPE_CHECKING:  # pragma: no cover
     from ellar.common.routing.websocket import WebSocketExtraHandler

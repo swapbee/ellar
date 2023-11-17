@@ -4,9 +4,9 @@ from enum import Enum
 from pathlib import PurePath
 from types import GeneratorType
 
-from pydantic import BaseConfig, BaseModel
-from pydantic import dataclasses as PydanticDataclasses
-from pydantic.json import ENCODERS_BY_TYPE
+from pydantic.v1 import BaseConfig, BaseModel
+from pydantic.v1 import dataclasses as PydanticDataclasses
+from pydantic.v1.json import ENCODERS_BY_TYPE
 
 __pydantic_model__ = "__pydantic_model__"
 __pydantic_config__ = "__config__"

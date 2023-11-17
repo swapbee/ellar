@@ -6,8 +6,8 @@ from ellar.common.constants import (
     sequence_types,
 )
 from ellar.common.exceptions import ImproperConfiguration
-from pydantic import BaseModel
-from pydantic.fields import FieldInfo, ModelField
+from pydantic.v1 import BaseModel
+from pydantic.v1.fields import FieldInfo, ModelField
 
 from .. import params
 from ..helpers import is_scalar_field, is_scalar_sequence_field

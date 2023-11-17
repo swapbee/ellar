@@ -1,7 +1,7 @@
 import typing as t
 
-from pydantic import BaseModel, ValidationError, create_model
-from pydantic.error_wrappers import ErrorList
+from pydantic.v1 import BaseModel, ValidationError, create_model
+from pydantic.v1.error_wrappers import ErrorList
 
 RequestErrorModel: t.Type[BaseModel] = create_model("Request")
 WebSocketErrorModel: t.Type[BaseModel] = create_model("WebSocket")

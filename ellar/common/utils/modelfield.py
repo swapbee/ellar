@@ -1,9 +1,9 @@
 import functools
 import typing as t
 
-from pydantic import BaseConfig
-from pydantic.class_validators import Validator
-from pydantic.fields import FieldInfo, ModelField, UndefinedType
+from pydantic.v1 import BaseConfig
+from pydantic.v1.class_validators import Validator
+from pydantic.v1.fields import FieldInfo, ModelField, UndefinedType
 
 
 def create_model_field(

@@ -1,7 +1,7 @@
 import typing as t
 from enum import Enum
 
-from pydantic.fields import FieldInfo, ModelField, Undefined
+from pydantic.v1.fields import FieldInfo, ModelField, Undefined
 
 from ..constants import MULTI_RESOLVER_FORM_GROUPED_KEY, MULTI_RESOLVER_KEY
 from .resolvers import (

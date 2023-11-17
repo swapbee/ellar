@@ -5,7 +5,7 @@ from typing import Any
 
 from ellar.common.types import TMessage
 from ellar.di import AnnotationToValue
-from pydantic.fields import (
+from pydantic.v1.fields import (
     SHAPE_LIST,
     SHAPE_SEQUENCE,
     SHAPE_SET,

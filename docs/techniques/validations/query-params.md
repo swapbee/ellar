@@ -159,7 +159,7 @@ You can also use Schema to encapsulate GET parameters:
 # project_name/apps/items/controllers.py
 
 from typing import List
-from pydantic import Field
+from pydantic.v1 import Field
 from ellar.common import Serializer, get, Controller, Query, ControllerBase
 
 

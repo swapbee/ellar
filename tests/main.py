@@ -4,7 +4,7 @@ from uuid import UUID
 from ellar.app import AppFactory
 from ellar.common import Inject, ModuleRouter, Path, Query, Serializer
 from ellar.core.connection import Request
-from pydantic import Field
+from pydantic.v1 import Field
 
 router = ModuleRouter("")
 

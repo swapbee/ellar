@@ -3,7 +3,7 @@ from pathlib import PurePath, PurePosixPath, PureWindowsPath
 from uuid import uuid4
 
 import pytest
-from pydantic import create_model
+from pydantic.v1 import create_model
 from starlette.testclient import TestClient
 
 

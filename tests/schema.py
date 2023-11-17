@@ -3,7 +3,7 @@ from datetime import datetime
 from typing import Optional, Union
 
 from ellar.common import Serializer
-from pydantic import BaseModel, Field
+from pydantic.v1 import BaseModel, Field
 
 
 class BlogObjectDTO:

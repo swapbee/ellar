@@ -8,9 +8,9 @@ from ellar.common.routing import ModuleMount, RouteOperation
 from ellar.common.routing.controller import ControllerRouteOperation
 from ellar.common.utils.modelfield import create_model_field
 from ellar.openapi.constants import OPENAPI_OPERATION_KEY, OPENAPI_TAG
-from pydantic import AnyUrl, BaseModel, EmailStr
-from pydantic.fields import ModelField
-from pydantic.schema import (
+from pydantic.v1 import AnyUrl, BaseModel, EmailStr
+from pydantic.v1.fields import ModelField
+from pydantic.v1.schema import (
     TypeModelOrEnum,
     get_flat_models_from_fields,
     get_model_name_map,

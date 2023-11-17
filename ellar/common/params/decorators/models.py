@@ -1,6 +1,6 @@
 import typing as t
 
-from pydantic.fields import Undefined
+from pydantic.v1.fields import Undefined
 
 from ...params import params
 

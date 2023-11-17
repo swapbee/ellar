@@ -183,7 +183,7 @@ For example:
 import typing as t
 from ellar.common.params import SystemParameterResolver
 from ellar.common import IExecutionContext
-from pydantic.error_wrappers import ErrorWrapper
+from pydantic.v1.error_wrappers import ErrorWrapper
 
 
 class UserParam(SystemParameterResolver):

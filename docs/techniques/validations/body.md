@@ -205,7 +205,7 @@ But you can instruct **Ellar** to treat it as another body key using Body:
 # project_name/apps/items/controllers.py
 
 from ellar.common import Serializer, Controller, Body, post, put, ControllerBase
-from pydantic import BaseModel
+from pydantic.v1 import BaseModel
 
 
 class Item(Serializer):
@@ -264,7 +264,7 @@ For example:
 # project_name/apps/items/controllers.py
 
 from ellar.common import Serializer, Controller, Body, post, put, ControllerBase
-from pydantic import BaseModel
+from pydantic.v1 import BaseModel
 
 
 class Item(Serializer):

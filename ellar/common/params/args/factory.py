@@ -2,8 +2,8 @@ import inspect
 import typing as t
 
 from ellar.common.utils.modelfield import create_model_field
-from pydantic.fields import FieldInfo, ModelField, Required
-from pydantic.schema import get_annotation_from_field_info
+from pydantic.v1.fields import FieldInfo, ModelField, Required
+from pydantic.v1.schema import get_annotation_from_field_info
 
 from .. import params
 from ..helpers import is_scalar_field

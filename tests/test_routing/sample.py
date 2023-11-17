@@ -3,7 +3,7 @@ from enum import IntEnum
 from typing import List, Optional
 
 from ellar.common.serializer import Serializer
-from pydantic import Field
+from pydantic.v1 import Field
 
 
 class Product(Serializer):

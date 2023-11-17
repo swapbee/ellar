@@ -10,7 +10,7 @@ from ellar.common.serializer import (
     SerializerBase,
     convert_dataclass_to_pydantic_model,
 )
-from pydantic import BaseModel
+from pydantic.v1 import BaseModel
 
 
 class ResponseTypeDefinitionConverter(TypeDefinitionConverter):

@@ -17,9 +17,9 @@ from ellar.common.routing import ModuleMount, RouteOperation
 from ellar.common.shortcuts import normalize_path
 from ellar.core.services.reflector import Reflector
 from ellar.openapi.constants import OPENAPI_OPERATION_KEY
-from pydantic import BaseModel
-from pydantic.fields import ModelField, Undefined
-from pydantic.schema import field_schema
+from pydantic.v1 import BaseModel
+from pydantic.v1.fields import ModelField, Undefined
+from pydantic.v1.schema import field_schema
 from starlette.routing import Mount, compile_path
 from starlette.status import HTTP_422_UNPROCESSABLE_ENTITY
 

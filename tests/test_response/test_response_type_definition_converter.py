@@ -8,7 +8,7 @@ from ellar.common.responses.models import (
 )
 from ellar.common.serializer import BaseSerializer
 from ellar.common.utils.modelfield import create_model_field
-from pydantic.typing import get_args
+from pydantic.v1.typing import get_args
 
 from ..schema import BlogObjectDTO, NoteSchemaDC
 

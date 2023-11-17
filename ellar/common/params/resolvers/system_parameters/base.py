@@ -4,7 +4,7 @@ from abc import ABC, abstractmethod
 from ellar.common.interfaces import IExecutionContext
 from ellar.common.logger import request_logger
 from ellar.common.types import T
-from pydantic.error_wrappers import ErrorWrapper
+from pydantic.v1.error_wrappers import ErrorWrapper
 
 from ..base import IRouteParameterResolver
 

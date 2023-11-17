@@ -1,6 +1,6 @@
-from pydantic import BaseModel
-from pydantic.fields import SHAPE_SINGLETON, ModelField
-from pydantic.utils import lenient_issubclass
+from pydantic.v1 import BaseModel
+from pydantic.v1.fields import SHAPE_SINGLETON, ModelField
+from pydantic.v1.utils import lenient_issubclass
 
 from ..constants import sequence_shapes, sequence_types
 

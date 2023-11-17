@@ -12,9 +12,9 @@ from ellar.common.constants import (
 from ellar.common.exceptions import RequestValidationError
 from ellar.common.interfaces import IExecutionContext
 from ellar.common.logger import request_logger
-from pydantic.error_wrappers import ErrorWrapper
-from pydantic.fields import Undefined
-from pydantic.utils import lenient_issubclass
+from pydantic.v1.error_wrappers import ErrorWrapper
+from pydantic.v1.fields import Undefined
+from pydantic.v1.utils import lenient_issubclass
 from starlette.datastructures import (
     FormData,
     Headers,

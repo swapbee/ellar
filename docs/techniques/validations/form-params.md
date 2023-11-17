@@ -113,7 +113,7 @@ This can be fixed, as described in the Pydantic docs, by using
 # project_name/apps/items/controllers.py
 
 from ellar.common import Serializer, Controller, Form, post, put, ControllerBase
-from pydantic.fields import ModelField
+from pydantic.v1.fields import ModelField
 from typing import Generic, TypeVar
 
 PydanticField = TypeVar("PydanticField")

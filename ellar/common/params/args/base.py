@@ -10,11 +10,11 @@ from ellar.common.constants import (
 )
 from ellar.common.exceptions import ImproperConfiguration
 from ellar.common.interfaces import IExecutionContext
-from pydantic import BaseModel
-from pydantic.error_wrappers import ErrorWrapper
-from pydantic.fields import FieldInfo, ModelField
-from pydantic.typing import ForwardRef, evaluate_forwardref  # type:ignore
-from pydantic.utils import Representation, lenient_issubclass
+from pydantic.v1 import BaseModel
+from pydantic.v1.error_wrappers import ErrorWrapper
+from pydantic.v1.fields import FieldInfo, ModelField
+from pydantic.v1.typing import ForwardRef, evaluate_forwardref  # type:ignore
+from pydantic.v1.utils import Representation, lenient_issubclass
 from starlette.convertors import Convertor
 from typing_extensions import Annotated, get_args, get_origin
 

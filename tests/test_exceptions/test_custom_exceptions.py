@@ -9,7 +9,7 @@ from ellar.core import Config, WebSocket
 from ellar.core.exceptions.service import ExceptionMiddlewareService
 from ellar.core.middleware import ExceptionMiddleware
 from ellar.testing import Test
-from pydantic.error_wrappers import ValidationError
+from pydantic.v1.error_wrappers import ValidationError
 from starlette.exceptions import HTTPException, WebSocketException
 from starlette.responses import JSONResponse, Response
 

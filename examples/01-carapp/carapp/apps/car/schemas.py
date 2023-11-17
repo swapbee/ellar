@@ -14,7 +14,7 @@ class ASampleDTO(DataclassSerializer):
     age: t.Optional[int] = None
 """
 from ellar.common.serializer import Serializer
-from pydantic import Field
+from pydantic.v1 import Field
 
 
 class CreateCarSerializer(Serializer):

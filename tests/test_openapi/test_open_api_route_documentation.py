@@ -9,7 +9,7 @@ from ellar.core.routing import ModuleRouterFactory
 from ellar.openapi import OpenAPIRouteDocumentation, openapi_info
 from ellar.openapi.constants import OPENAPI_OPERATION_KEY
 from ellar.reflect import reflect
-from pydantic.schema import get_flat_models_from_fields, get_model_name_map
+from pydantic.v1.schema import get_flat_models_from_fields, get_model_name_map
 
 from ..schema import BlogObjectDTO, CreateCarSchema, Filter, NoteSchemaDC
 
